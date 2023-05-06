@@ -1,0 +1,74 @@
+
+https://api.zapper.fi/v1/farms/masterchef/stake?gasPrice=6000000000&ownerAddress=0xdBf66CF52791CAA30d54aFf5769Ff6f13202DBCC&rewardAddress=0x73feaa1ee314f8c655e354234017be2193c9e24e&poolIndex=251&amount=148364609103346416&network=binance-smart-chain&api_key=96e0cc51-a62e-42ca-acee-910ea7d2a241
+https://api.zapper.fi/v1/farms/masterchef/stake?gasPrice=6000000000&ownerAddress=0x794ae7D3Ec759d780a09D5438dD67c7fA84efD25&rewardAddress=0x73feaa1ee314f8c655e354234017be2193c9e24e&poolIndex=251&amount=20000000000000000&network=binance-smart-chain&api_key=96e0cc51-a62e-42ca-acee-910ea7d2a241
+
+
+20000000000000000
+5328578843285592
+
+
+//start mongodb
+mongod --dbpath /var/lib/mongo --logpath /var/log/mongodb/mongod.log --fork
+
+
+
+
+~/programming/bigData/spark/bin/spark-submit \
+  --master yarn \
+  /home/aka/programming/python/testBigData/price_prediction_spark.py \
+  1000
+
+
+
+
+
+
+~/programming/bigData/spark/bin/spark-submit \
+  --master   spark://kaki:7077  \
+  /home/aka/programming/python/testBigData/movie_recommendation.py \
+  1000
+
+
+
+~/programming/bigData/spark/bin/spark-submit \
+  --master yarn \
+  /home/aka/programming/python/testBigData/movie_recommendation.py \
+  1000
+
+
+
+
+~/programming/bigData/spark/bin/spark-submit \
+  --master   spark://kaki:7077  \
+  /home/aka/programming/python/testBigData/price_prediction_spark.py \
+  1000
+
+
+
+
+  mongod --dbpath /var/lib/mongo --logpath /var/log/mongodb/mongod.log --fork
+
+  ~/programming/bigData/spark/bin/spark-submit \
+  --class FileCombiner \
+  --master   spark://kaki:7077  \
+  /home/aka/programming/java/criptoPrice/target/scala-2.12/criptoprice_2.12-0.1.jar \
+  1000
+
+
+  ~/programming/bigData/spark/bin/spark-submit \
+  --class PricePrediction \
+  --master   spark://kaki:7077  \
+  /home/aka/programming/java/criptoPrice/target/scala-2.12/criptoprice_2.12-0.1.jar \
+  1000
+
+
+mongod -auth --dbpath /var/lib/mongo --logpath /var/log/mongodb/mongod.log --fork
+
+
+
+
+~/programming/bigData/spark/bin/spark-submit \
+  --master   spark://kaki:7077  \
+  /home/aka/programming/python/testBigData/test_spark.py \
+  1000
+
